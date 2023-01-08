@@ -20,13 +20,4 @@ def send(msg):
     print(client.recv(2048).decode(FORMAT))
 
 send("Hello World!")
-input()
-send("Hello EM!")
-input()
-send("Hello ME!")
-input()
-send("Hello CAT!")
-input()
-send("Hello BOY!")
-input()
 send(DISCONNECT_MESSAGE)
