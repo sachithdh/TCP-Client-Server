@@ -19,5 +19,5 @@ def send(msg):
     client.send(message)
     print(client.recv(2048).decode(FORMAT))
 
-send("Hello World!")
-send(DISCONNECT_MESSAGE)
+send("Hello World!") # Message you want to send
+send(DISCONNECT_MESSAGE) # To Disconnect
